@@ -2,3 +2,4 @@
 # Lab5
 # Lab5
 Midterm
+#spatialanalysismidterm
