@@ -4,7 +4,7 @@ library("stringr")
 library("pastecs")
 library("oce")
 
-#Got time 
+#Got time isolated with out arbitrary date
 X195101_201404_ZoopXL$time <- X195101_201404_ZoopXL$Tow_Time
 
 X195101_201404_ZoopXL$time <- gsub("1899-12-31 ", "", X195101_201404_ZoopXL$time)
